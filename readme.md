@@ -1,4 +1,4 @@
-# Problemática Semanal 13 - Automation Tests
+# Problemática Semanal 13 - Automation Test
 ***
 Automated test to search for the "Wikipedia" page on Google, access it and check that the url is correct.
 
