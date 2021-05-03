@@ -1,0 +1,30 @@
+{
+  "name": "ps13-automation-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js --spec automation-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaltazarCortina/PS13-AutomationTest.git"
+  },
+  "author": "Baltazar Cortina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaltazarCortina/PS13-AutomationTest/issues"
+  },
+  "homepage": "https://github.com/BaltazarCortina/PS13-AutomationTest#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.5.3"
+  },
+  "devDependencies": {
+    "@wdio/jasmine-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.4",
+    "@wdio/spec-reporter": "^7.5.3",
+    "@wdio/sync": "^7.5.3",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
